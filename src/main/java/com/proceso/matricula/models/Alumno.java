@@ -20,6 +20,9 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
+//Hecho por walter matos
+
 @Getter
 @Setter
 @Entity
@@ -28,6 +31,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Alumno {
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idAlumno;
